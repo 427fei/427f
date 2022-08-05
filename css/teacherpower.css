@@ -1,0 +1,83 @@
+.teachermaincon {
+	width: 1220px;
+	margin: 10px auto;
+}
+
+.teacherhead {
+	display: flex;
+	align-items: center;
+	padding-top: 40px;
+}
+
+.teacherheadline {
+	background: #3778ff;
+	width: 4px;
+	height: 23px;
+	margin-right: 8px;
+}
+
+.teacherheadtitle {
+	font-size: 24px;
+	color: #404040;
+	letter-spacing: -.08px;
+}
+
+.teacherlistbody {
+	width: 1220px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+.teacherlistbody ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.teacherlistbody li {
+	width: 280px;
+	height: 454px;
+	background: #fff;
+	box-shadow: 0 2px 16px 0 rgba(47, 51, 56, .1);
+	border-radius: 10px;
+	margin-right: 25px;
+	cursor: pointer;
+	flex-shrink: 0;
+	margin-bottom: 20px;
+	transition: 0.3s;
+}
+
+.teacherlistbody li:hover {
+	margin-top: -10px;
+}
+
+.teacherlistimg {
+	width: 280px;
+	height: 280px;
+	overflow: hidden;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.teacherlistimg img {
+	width: 280px;
+}
+
+.teacherlistmain {
+	position: relative;
+	margin: 20px 0 0 15px;
+}
+
+.teacherlistdesc {
+	padding: 15px;
+	font-size: 14px;
+	color: #3c464f;
+	letter-spacing: 0;
+	line-height: 20px;
+}
+
+.nomore {
+	height: 50px;
+	width: 1200px;
+	height: 40px;
+	color: #666;
+	text-align: center;
+}

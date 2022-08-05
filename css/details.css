@@ -1,0 +1,265 @@
+body {
+	background-color: #f7f8fa;
+}
+
+.flexedclass {
+	position: fixed;
+	top: 0;
+}
+
+.flexedclass-2 {
+	position: fixed;
+	top: 60px;
+}
+
+
+.detailsmain {
+	width: 1200px;
+	margin: 70px auto 0px;
+	background: #fff;
+}
+
+.detailhead {
+	width: 100%;
+	padding: 16px 24px 24px;
+	display: flex;
+}
+
+.detail-title {
+	font-size: 24px;
+	color: #3c464f;
+	font-weight: 700;
+	margin-bottom: 1.5rem;
+}
+
+.detail-lefthead {
+	width: 65%;
+	border-right: 1px solid #dee2e6;
+}
+
+.detail-desc p {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.detail-desc span {
+	font-size: 16px;
+	color: #8a9095;
+	line-height: 14px;
+	margin-top: 1rem;
+	display: -ms-flexbox;
+	display: flex;
+	align-items: center;
+}
+
+.detail-hl {
+	margin: 15px 0px;
+}
+
+.detail-hl span {
+	background: #f3f9ff;
+	border-radius: 4px;
+	font-size: 12px;
+	color: #39f;
+	letter-spacing: 0;
+	line-height: 12px;
+	padding: 5px 6px;
+	margin-right: 10px;
+	max-height: 20px;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-bottom: 3px;
+}
+
+.detail-teacher-img {
+	width: 50px;
+	height: 90px;
+	margin-top: 60px;
+	text-align: center;
+	line-height: 25px;
+}
+
+.detail-teacher-img img {
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+}
+
+.detail-teacher-img p {
+	font-size: 14px;
+	color: #8a9095;
+}
+
+.detail-righthead {
+	display: flex;
+	justify-content: flex-end;
+	padding: 16px 14px 60px 80px;
+	flex-direction: column;
+}
+
+.detail-price span {
+	color: #f60;
+	font-size: 40px;
+	line-height: 1;
+	margin: 40px 0px 5px 25px;
+}
+
+.detail-buyperson span {
+	font-size: 14px;
+	color: #8a9095;
+	line-height: 16px;
+	margin-left: 35px;
+}
+
+.detail-nowbuy {
+	width: 190px;
+	height: 40px;
+	border-radius: 30px;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 30px;
+	margin-bottom: -20px;
+	margin-left: 20px;
+	color: #fff;
+	background: url(//nodestatic.fbstatic.cn/weblts_spa_online/pwa/assets/img/online.svg);
+
+}
+
+.detail-nowbuy span {
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+.detail-subhead {
+	width: 1200px;
+	background-color: #fff;
+}
+
+#detail-list {
+	justify-content: space-between;
+	display: flex;
+}
+
+.detailbody {
+	border-top: 1px solid #dfdfdf;
+}
+
+#detail-list li {
+	float: left;
+	padding: 0px 110px;
+	margin: 16px;
+	font-size: 18px;
+}
+
+.detail-active {
+	color: #3c7cfc;
+}
+
+.detail-subbody {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.detail-schedule {
+	padding: 40px;
+	font-size: 16px;
+}
+
+.detail-scheduledesc {
+	margin-top: 20px;
+}
+
+.detail-scheduledesc p {
+	margin-bottom: 8px;
+	margin-left: 10px;
+}
+
+.detail-scheduledesc span {
+	width: 10px;
+	height: 10px;
+	font-size: 30px;
+	font-weight: 800;
+	color: #39f;
+	margin-right: 1rem;
+}
+
+.detail-teacher {
+	padding: 32px;
+	border-top: 1px solid #dfdfdf;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.detail-teacher span {
+	font-size: 16px;
+	color: #3c464f;
+	display: block;
+}
+
+.detail-teacherbody {
+	width: 355px;
+	border: 1px solid #dfdfdf;
+	padding: 24px;
+	margin-top: 25px;
+}
+
+.detail-teachertitle-top {
+	display: flex;
+}
+
+.detail-teachertitle-top img {
+	width: 56px;
+	height: 56px;
+	border-radius: 50%;
+}
+
+.detail-start {
+	margin: 10px 0px 0px 10px;
+}
+
+.detail-start p>img {
+	width: 15px;
+	height: 15px;
+}
+
+.detail-start p {
+	padding-top: 10px;
+}
+
+.detail-teachertitle-bot {
+	margin: 8px 0px 24px;
+}
+
+.detail-teachertitle-bot span {
+	display: inline-block;
+	border: 1px solid #dfdfdf;
+	font-size: 14px;
+	color: #b1b5b9;
+	padding: .5rem;
+	margin: .5rem .5rem 0 0;
+}
+
+.detail-teachertitle {
+	font-size: 14px;
+	color: #b1b5b9;
+	line-height: 21px;
+}
+
+.detail-consult {
+	padding: 28px 32px;
+	font-size: 16px;
+	color: #3c464f;
+}
+
+.detail-footer {
+	width: 100%;
+	text-align: center;
+}
+
+.detail-footer a{
+	font-size: 12px;
+	color: #8a9095;
+}
+
+.detail-footer a:hover {
+	text-decoration: underline;
+}

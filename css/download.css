@@ -1,0 +1,285 @@
+.appcontent {
+	width: 100%;
+	position: relative;
+}
+
+.apptype {
+	width: 1200px;
+	height: 100px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.typeactive {
+	display: inline-block;
+	height: 40px;
+	width: 140px;
+	padding-top: 52px;
+	padding-right: 50px;
+}
+
+.typeactive a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	width: 140px;
+	height: 40px;
+	font-size: 14px;
+	color: #3c7cfc;
+	border: 1px solid #3c7cfc;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.typeactive span {
+	display: block;
+	width: 24px;
+	height: 24px;
+	margin-right: 4px;
+	background: url('https://nodestatic.fbstatic.cn/weblts_spa_online/page/assets/www/download2/app-icon-hover.svg');
+}
+
+.typeactive-2 {
+	display: inline-block;
+	height: 40px;
+	width: 140px;
+	padding-top: 52px;
+	padding-right: 50px;
+}
+
+.typeactive-2 a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	width: 140px;
+	height: 40px;
+	font-size: 14px;
+	color: #3c7cfc;
+	border: 1px solid #3c7cfc;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.typeactive-2 span {
+	display: block;
+	width: 24px;
+	height: 24px;
+	margin-right: 4px;
+	background: url('https://nodestatic.fbstatic.cn/weblts_spa_online/page/assets/www/download2/win-icon-hover.svg');
+}
+
+.active {
+	display: inline-block;
+	height: 40px;
+	width: 140px;
+	padding-top: 52px;
+	padding-right: 50px;
+}
+
+.active a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	width: 140px;
+	height: 40px;
+	font-size: 14px;
+	color: #666;
+	border: 1px solid #bbbfcd;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.active span {
+	display: block;
+	width: 24px;
+	height: 24px;
+	margin-right: 4px;
+	background: url('https://nodestatic.fbstatic.cn/weblts_spa_online/page/assets/www/download2/app-icon.svg');
+}
+
+.active-2 {
+	display: inline-block;
+	height: 40px;
+	width: 140px;
+	padding-top: 52px;
+	padding-right: 50px;
+}
+
+.active-2 a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	width: 140px;
+	height: 40px;
+	font-size: 14px;
+	color: #666;
+	border: 1px solid #bbbfcd;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.active-2 span {
+	display: block;
+	width: 24px;
+	height: 24px;
+	margin-right: 4px;
+	background: url('https://nodestatic.fbstatic.cn/weblts_spa_online/page/assets/www/download2/win-icon.svg');
+}
+
+.downloadbody {
+	width: 100%;
+	height: 700px;
+	position: relative;
+}
+
+.downloadmain {
+	width: 1200px;
+	margin: 60px auto 0px auto;
+	display: flex;
+}
+
+.downloadimg {
+	background: url('../img/m_pic.png') no-repeat;
+	background-size: cover;
+	width: 586px;
+	height: 516px;
+}
+
+.downloadcon {
+	display: inline-block;
+	width: 586px;
+	height: 516px;
+	padding-left: 85px;
+	padding-top: 57px;
+}
+
+.downloadconhead {
+	background: url('../img/app-head.png')no-repeat;
+	background-size: cover;
+	width: 175px;
+	height: 37px;
+}
+
+.downloadcontxt {
+	opacity: .8;
+	font-size: 14px;
+	color: #222;
+	line-height: 30px;
+	text-align: left;
+	margin-top: 23px;
+	margin-bottom: 40px;
+}
+
+.downloadcontxt p:nth-of-type(1) {
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+
+.downloadconqrcode {
+	display: flex;
+}
+
+.downloadqrcodeimg {
+	text-align: center;
+	display: inline-block;
+	width: 116px;
+	height: 116px;
+	margin-right: 19px;
+}
+
+.downloadqrcode-txt {
+	display: inline-block;
+	font-size: 16px;
+	color: #222;
+	letter-spacing: 1.67px;
+	text-align: left;
+	margin-top: 28px;
+}
+
+.downloadqrcode-txt a {
+	color: #3c7cfc;
+}
+
+.downloadversion {
+	margin-top: 12px;
+	display: flex;
+}
+
+.versiontitle {
+	opacity: .6;
+	font-size: 12px;
+	color: #222;
+	letter-spacing: 1.25px;
+	line-height: 30px;
+	display: flex;
+	align-items: flex-start;
+
+}
+
+.versiontxt p {
+	display: flex;
+	align-items: flex-start;
+	opacity: .6;
+	font-size: 12px;
+	color: #222;
+	letter-spacing: 1.25px;
+	line-height: 30px;
+}
+
+.downloadfootimg {
+	width: 100%;
+	height: 203px;
+	position: absolute;
+	bottom: 0;
+	background: url('../img/bottom-bg.png') no-repeat;
+	background-size: cover;
+}
+
+#pc {
+	display: none;
+}
+
+.downloadbtn {
+	position: relative;
+}
+
+.downloadbtn span {
+	display: block;
+	width: 210px;
+	height: 60px;
+	background: #3c7cfc;
+	color: #fff;
+	border-radius: 30px;
+	text-align: center;
+	line-height: 60px;
+
+}
+
+.pcdownloadicon {
+	background: url('//nodestatic.fbstatic.cn/weblts_spa_online/page/assets/www/download2/download.svg') no-repeat;
+	background-size: cover;
+	width: 24px;
+	height: 20px;
+	margin-right: 12px;
+	position: absolute;
+	left: 45px;
+	top: 20px;
+}
+
+.pcdownloadimg {
+	background: url('../img/pc_pic.png') no-repeat;
+	background-size: cover;
+	width: 586px;
+	height: 516px;
+}
+
+.pcdownloadconhead {
+	background: url('../img/pc-head.png')no-repeat;
+	background-size: cover;
+	width: 175px;
+	height: 37px;
+}
